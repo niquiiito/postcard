@@ -1,0 +1,72 @@
+/* {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Monomakh&display=swap");
+
+body {
+	background: black;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	font-family: "Comic Neue";
+}
+
+.postcard-header {
+	display: flex;
+}
+.postcard-header h1 {
+	width: 340px;
+	margin: 30px 10px 10px 10px;
+	font-size: 2.2rem;
+	text-align: left;
+}
+
+.postcard-header img {
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+}
+
+.postcard-body {
+	display: flex;
+	margin: 10px;
+	justify-content: flex-start;
+	align-items: start;
+}
+
+.body-left p:first-child {
+	margin-top: 1px;
+}
+
+.body-left,
+.body-right {
+	padding: 4px;
+}
+
+input {
+	border: none;
+	border-bottom: 0.5px solid rgb(170, 161, 161);
+	background-color: white;
+	border-radius: 1px;
+	text-align: left;
+}
+
+.postcard-footer {
+	text-align: center;
+	padding: 10px 30px 30px 30px;
+	background: white;
+}
+
+.botonFooter {
+	color: black;
+}
+.botonFooter:hover {
+	cursor: pointer;
+	color: rgb(57, 55, 55);
+}
